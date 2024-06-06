@@ -1,0 +1,12 @@
+name: StagingDep
+on: 
+  push:
+    branches:
+      - staging
+jobs:
+  deployment:
+    runs-on: window-latest
+    environment: staging
+    steps:
+      - name: deploy
+        uses: actions/checkout@v1
