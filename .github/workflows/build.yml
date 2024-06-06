@@ -1,4 +1,4 @@
-name: StagingDep
+name: Staging
 on: 
   push:
     branches:
