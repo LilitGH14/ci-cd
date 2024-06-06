@@ -9,3 +9,4 @@ jobs:
     environment: staging
     steps:
       - name: deploy
+        uses: actions/checkout@v1
