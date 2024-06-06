@@ -5,7 +5,7 @@ on:
       - staging
 jobs:
   deployment:
-    runs-on: window-latest
+    runs-on: ubuntu-latest
     environment: staging
     steps:
       - name: deploy
