@@ -1,0 +1,9 @@
+name: Staging
+on: 
+  push:
+    branches:
+      - staging
+jobs:
+  deployment:
+    runs-on: window-latest
+    environment: staging
